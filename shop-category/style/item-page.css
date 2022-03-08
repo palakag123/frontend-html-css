@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+.outer-div{
+    background-color: grey;
+    padding: 2%;
+    margin: 0px;
+}
+.left-h1{
+    font-size: 70px;
+    margin: 40px;
+}
+.main{
+    display: flex;
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+}
+.left-section{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    align-self: center;
+}
+.right-section{
+    display: block;
+    margin: auto;
+    width: 50%;
+    background-color: #FF5F1F;
+    text-align: center;
+    height: 100%;
+}
+.image{
+    width: 70%;
+    height: 500px;
+    margin-top: 100px;
+}
+.button{
+    background-color: transparent;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 25%;
+    border: 2px solid black;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+.left-inner-div{
+    margin: 50px;
+    margin-top: 200px;
+}
