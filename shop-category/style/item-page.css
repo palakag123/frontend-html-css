@@ -1,40 +1,41 @@
 body{
     margin: 0px;
 }
-.outer-div{
+/* .outer-div{
     background-color: grey;
     padding: 2%;
     margin: 0px;
-}
+} */
 .left-h1{
     font-size: 70px;
     margin: 40px;
 }
 .main{
     display: flex;
-    height: 93vh;
+    height: 100vh;
     align-items: center;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 .left-section{
     text-align: center;
-    width: 50%;
+    width: 50vw;
     height: 100%;
     background-color: white;
-    align-self: center;
 }
 .right-section{
-    display: block;
-    margin: auto;
-    width: 50%;
+    /* display: block;
+    margin: auto;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw; 
+    height: 100%;
     background-color: #FF5F1F;
     text-align: center;
-    height: 100%;
 }
 .image{
-    width: 70%;
-    height: 500px;
-    margin-top: 100px;
+    width: 60%;
+    height: 60%;
 }
 .button{
     background-color: transparent;
@@ -49,4 +50,34 @@ body{
 .left-inner-div{
     margin: 50px;
     margin-top: 200px;
+}
+@media only screen and (max-width:1200px){
+    .left-h1{
+        font-size: 55px;
+    }
+    .button{
+        font-size: 14px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width:700px){
+    .main{
+        flex-direction: column;
+    }
+    .left-section{
+        width:100%;
+    }
+    .right-section{
+        width:100%;
+    }
+    .left-h1{
+        font-size: 40px;
+    }
+    .button{
+        font-size: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding: 5px;
+    }
 }
